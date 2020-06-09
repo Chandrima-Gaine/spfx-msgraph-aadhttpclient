@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-msgraph-aadhttpclient-client-side-solution",
+    "id": "8dfc17d5-8e7f-4832-b13e-1845d9d11fa9",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [  
+      {  
+        "resource": "Microsoft Graph",  
+        "scope": "User.ReadBasic.All"  
+      }  
+    ] 
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-msgraph-aadhttpclient.sppkg"
+  }
+}
